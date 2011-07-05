@@ -2,4 +2,6 @@
 *.apk
 R.java
 *.bak
-*~
+*.dex
+*.ap_
+*.html
