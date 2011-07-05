@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="SyncLib"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="lib/External.jar"/>
+	<classpathentry kind="lib" path="lib/ibm.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/BC.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/CCITSC.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
