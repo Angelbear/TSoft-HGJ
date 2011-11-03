@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="SyncLib2.3"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Android2.3"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Users/bear/Desktop/Mms/lib/BC.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bear/Desktop/Mms/lib/CCITSC.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bear/Desktop/Mms/lib/ibm.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

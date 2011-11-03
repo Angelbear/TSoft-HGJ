@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:layout_width="fill_parent">
+
+	<!-- select all header -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="65.3dp" android:id="@+id/select_list_linearLayout"
+		android:background="@drawable/quickcontact_slider_background"
+		 >
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:text="@string/select_all"
+			android:gravity="center_vertical" android:layout_weight="0.8"
+			android:textSize="22dip" android:paddingLeft="12dip"
+			android:textColor="@color/dialer_button_text"
+			android:id="@+id/select_list_all_text" 
+			android:duplicateParentState="true" />
+
+		<CheckBox android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:id="@+id/select_list_all_item_checkBox"
+			android:paddingRight="12dip" android:focusable="false"
+			android:clickable="false" android:duplicateParentState="true" />
+
+	</LinearLayout>
+	<!-- select all header end -->
+
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1" />
+
+	<!--<LinearLayout android:id="@+id/android:empty"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+		android:gravity="center_vertical">
+		<ImageView android:id="@+id/empty_list_imageView"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:visibility="invisible"
+			android:src="@drawable/noitems_text_based" />
+		<TextView android:id="@+id/empty_list_textView"
+			android:textSize="22dip" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center"
+			/>
+	</LinearLayout>
+-->
+<LinearLayout android:id="@android:id/empty"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal"
+	android:gravity="center_vertical">
+	<ImageView android:id="@+id/empty_list_imageView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:visibility="invisible"
+		android:src="@drawable/noitems_text_based" />
+	<TextView android:id="@+id/empty_list_textView" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/simContacts_emptyLoading"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_gravity="center" />
+</LinearLayout>
+
+<!--<TextView android:id="@android:id/empty" android:layout_width="match_parent"
+		android:layout_height="match_parent" android:text="@string/simContacts_emptyLoading"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:gravity="center" />
+	-->
+	<RelativeLayout android:layout_width="fill_parent" android:id="@+id/select_list_softkey"
+		android:layout_height="59.33dip" >
+
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:paddingLeft="3.33dp" android:paddingTop="6.67dp"
+			android:paddingRight="3.33dp" android:paddingBottom="2.67dp">
+			<Button android:id="@+id/common_softkey_left_button"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1" android:singleLine="true"
+				android:ellipsize="marquee" android:textSize="16dip" />
+			<Button android:id="@+id/common_softkey_right_button"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1" android:singleLine="true"
+				android:ellipsize="marquee" android:text="@string/cancel"
+				android:textSize="16dip" android:layout_alignParentRight="true" />
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>	
