@@ -92,7 +92,7 @@ public class DialtactsActivity extends TabActivity implements TabHost.OnTabChang
 
         // Setup the tabs
         setupDialerTab();
-        setupCallLogTab();
+        //setupCallLogTab();
         setupContactsTab();
         setupFavoritesTab();
 

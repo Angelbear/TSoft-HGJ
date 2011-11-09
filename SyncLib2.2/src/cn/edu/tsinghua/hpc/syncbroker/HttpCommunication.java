@@ -43,9 +43,9 @@ public class HttpCommunication {
     	httpHeads = new HashMap<String, String>();
     	
     	// set timeout in milliseconds until a connection is established.
-    	HttpConnectionParams.setConnectionTimeout(httpParams, 10000);
+    	HttpConnectionParams.setConnectionTimeout(httpParams, 300000);
     	// default socket timeout in milliseconds waiting for data
-    	HttpConnectionParams.setSoTimeout(httpParams, 10000);
+    	HttpConnectionParams.setSoTimeout(httpParams, 300000);
     }
     
     public static void initHttpParameters(Map<String, String> params) {

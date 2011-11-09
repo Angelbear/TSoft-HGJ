@@ -706,11 +706,11 @@ the dialog id for sync progress. Added by Boern
         public static final int final_delete_message_title=0x7f080020;
         public static final int final_delete_thread_message=0x7f08001f;
         public static final int final_delete_thread_title=0x7f08001e;
-        public static final int first_sync=0x7f080165;
-        public static final int first_sync_canel=0x7f08016d;
-        public static final int first_sync_message=0x7f080166;
-        public static final int first_sync_succeed=0x7f080167;
-        public static final int first_synce_confirm=0x7f08016c;
+        public static final int first_sync=0x7f080169;
+        public static final int first_sync_canel=0x7f080163;
+        public static final int first_sync_message=0x7f080170;
+        public static final int first_sync_succeed=0x7f08016f;
+        public static final int first_synce_confirm=0x7f080165;
         /**  first sychonization failed dialog 
  first sychonization failed dialog 
          */
@@ -733,7 +733,7 @@ the dialog id for sync progress. Added by Boern
         /**  Label in "Message details" dialog showing who sent the message. 
          */
         public static final int from_label=0x7f0800e5;
-        public static final int giveup_first_sync=0x7f080170;
+        public static final int giveup_first_sync=0x7f080168;
         /**  Tag appearing on conversations in the conversation list that contain a draft message 
          */
         public static final int has_draft=0x7f080039;
@@ -762,7 +762,7 @@ the dialog id for sync progress. Added by Boern
         /**  Abbreviation for "kilobyte" 
          */
         public static final int kilobyte=0x7f080045;
-        public static final int label_trash=0x7f080171;
+        public static final int label_trash=0x7f080166;
         /**  Slide layout option for layout at the bottom 
          */
         public static final int layout_bottom=0x7f080099;
@@ -816,7 +816,7 @@ the dialog id for sync progress. Added by Boern
         /**  Menu item for starting a new conversation 
          */
         public static final int menu_compose_new=0x7f08002a;
-        public static final int menu_contact=0x7f080164;
+        public static final int menu_contact=0x7f080167;
         /**  Context menu item on an individual conversation for deleting that conversation 
          */
         public static final int menu_delete=0x7f080031;
@@ -854,7 +854,7 @@ the dialog id for sync progress. Added by Boern
         /**  Menu item for accessing application settings 
          */
         public static final int menu_preferences=0x7f08002b;
-        public static final int menu_recover_message=0x7f080163;
+        public static final int menu_recover_message=0x7f08016a;
         /**  Menu item for recovering conversations 
          */
         public static final int menu_recycle_bin=0x7f08002c;
@@ -1065,7 +1065,7 @@ the dialog id for sync progress. Added by Boern
         /**  Settings item description for boolean transparent sync service option 
          */
         public static final int pref_summary_transparent_sync=0x7f0800c6;
-        public static final int pref_text_messages_to_save=0x7f080173;
+        public static final int pref_text_messages_to_save=0x7f080164;
         public static final int pref_threads_to_save=0x7f080174;
         /**  Settings item for boolean option to enable/disable auto-deletion of messages 
          */
@@ -1142,7 +1142,7 @@ the dialog id for sync progress. Added by Boern
         /**  Label in "Report" window 
          */
         public static final int recipient_label=0x7f080107;
-        public static final int recover_failed=0x7f080169;
+        public static final int recover_failed=0x7f080172;
         public static final int recover_failed_message=0x7f080017;
         /**  Message that appears on screen while SIM card messages are retrieved 
          */
@@ -1150,7 +1150,7 @@ the dialog id for sync progress. Added by Boern
         /**  Button next to an attachment during message composition to remove the attachment (imperative verb) 
          */
         public static final int remove=0x7f08006a;
-        public static final int remove_msg=0x7f080172;
+        public static final int remove_msg=0x7f08016e;
         /**  Menu item in slide edit screen for removing the music from the slide being edited 
          */
         public static final int remove_music=0x7f08005f;
@@ -1186,7 +1186,7 @@ the dialog id for sync progress. Added by Boern
         public static final int resync_succeed=0x7f080024;
         public static final int retry_and_continue_logining_button=0x7f080008;
         public static final int retry_and_continue_sychonizing_button=0x7f080016;
-        public static final int retry_first_sync=0x7f08016f;
+        public static final int retry_first_sync=0x7f08016d;
         /**  Dialog text displayed when trying to resend an unsent message. 
          */
         public static final int retrying_dialog_body=0x7f0800f7;
@@ -1367,7 +1367,7 @@ the dialog id for sync progress. Added by Boern
         /**  Label in "Message details" dialog 
          */
         public static final int subject_label=0x7f0800eb;
-        public static final int sync_failed=0x7f080168;
+        public static final int sync_failed=0x7f080171;
         /**  "Type" value in "Message details" dialog 
          */
         public static final int text_message=0x7f0800e2;
@@ -1449,13 +1449,13 @@ the dialog id for sync progress. Added by Boern
         /**  Context menu item on an individual message for viewing an attached slideshow 
          */
         public static final int view_slideshow=0x7f08003f;
-        public static final int wait_for_loading=0x7f08016b;
-        public static final int waiting_for_sync=0x7f08016e;
+        public static final int wait_for_loading=0x7f080173;
+        public static final int waiting_for_sync=0x7f08016b;
         /**  user logining dialog 
  user logining dialog 
          */
         public static final int waiting_login_message=0x7f080003;
-        public static final int waiting_message=0x7f08016a;
+        public static final int waiting_message=0x7f08016c;
         /**  first sychonizing dialog 
  first sychonizing dialog 
          */

@@ -8,6 +8,5 @@
 	<classpathentry exported="true" kind="lib" path="lib/BC.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/CCITSC.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Android2.2"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ibm"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
