@@ -100,5 +100,5 @@
     <bool name="config_allow_import_from_system">true</bool>
     
      <!-- Flag indicating whether Contacts app is allowed to export contacts to system contact -->
-    <bool name="config_allow_export_to_system">true</bool>
+    <bool name="config_allow_export_to_system">false</bool>
 </resources>

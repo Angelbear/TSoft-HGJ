@@ -41,6 +41,7 @@ import android.provider.ContactsContract.CommonDataKinds.Photo;
 import android.provider.ContactsContract.CommonDataKinds.StructuredName;
 import android.provider.ContactsContract.CommonDataKinds.StructuredPostal;
 import android.provider.ContactsContract.CommonDataKinds.Website;
+import android.provider.ContactsContract.RawContactsEntity;
 import android.telephony.PhoneNumberUtils;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -628,7 +629,8 @@ public class VCardComposer {
     private String createOneEntryInternal(final String contactId) {
         final Map<String, List<ContentValues>> contentValuesListMap =
                 new HashMap<String, List<ContentValues>>();
-        final Uri uri = Uri.parse("content://cn.edu.tsinghua.hpc.tcontacts/raw_contacts").buildUpon().appendQueryParameter("for_export_only", "1").build();
+        //final Uri uri = Uri.parse("content://cn.edu.tsinghua.hpc.tcontacts/raw_contacts").buildUpon().appendQueryParameter("for_export_only", "1").build();
+        final Uri uri = RawContactsEntity.CONTENT_URI.buildUpon().appendQueryParameter("for_export_only", "1").build();
         final String selection = Data.CONTACT_ID + "=?";
         final String[] selectionArgs = new String[] {contactId};
         // The resolver may return the entity iterator with no data. It is possiible.
@@ -647,7 +649,7 @@ public class VCardComposer {
                     new Object[] {
                             sDataRequestUri, selection, selectionArgs, null
                     });
-                    */
+                 */  
             entityIterator = RawContacts.newEntityIterator(mContentResolver.query(
                     uri, null, selection, selectionArgs, null));
             // entityIterator = mContentResolver.queryEntities(

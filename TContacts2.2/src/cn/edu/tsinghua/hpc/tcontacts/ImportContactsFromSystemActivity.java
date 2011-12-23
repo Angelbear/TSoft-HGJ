@@ -70,7 +70,7 @@ public class ImportContactsFromSystemActivity extends Activity {
 				ContactStruct contact = builder.mLastContactStruct;
 				contact.pushIntoContentResolver(getContentResolver());
 			} catch (Exception e) {
-				Log.d(LOG_TAG, e.getMessage());
+				//Log.d(LOG_TAG, e.getMessage());
 			}
 
 			return true;

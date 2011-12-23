@@ -2347,7 +2347,7 @@ public class ContactsListActivity extends ListActivity implements
 			Uri uri = Uri.withAppendedPath(TContacts.CONTENT_MULTI_VCARD_URI,
 					Uri.encode(uriListBuilder.toString()));
 
-			final Intent intent = new Intent(TIntent.ACTION_SEND);
+			final Intent intent = new Intent(Intent.ACTION_SEND);
 			intent.setType(Contacts.CONTENT_VCARD_TYPE);
 			intent.putExtra(Intent.EXTRA_STREAM, uri);
 			startActivity(intent);
