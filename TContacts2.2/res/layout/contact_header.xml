@@ -18,13 +18,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/title_bar_medium"
-    android:orientation="horizontal"
+    android:orientation="horizontal" 
     android:paddingRight="5dip" >
 
     <cn.edu.tsinghua.hpc.tcontacts.ui.widget.QuickContactBadge android:id="@+id/photo"
         android:layout_gravity="center_vertical"
-        android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
+        android:layout_width="60dip"
+    	android:layout_height="60dip"
         android:layout_marginRight="8dip"
         android:layout_marginLeft="-1dip"
         style="@*android:style/Widget.QuickContactBadge.WindowSmall" />

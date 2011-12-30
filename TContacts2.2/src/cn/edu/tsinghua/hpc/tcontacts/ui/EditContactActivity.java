@@ -1210,7 +1210,7 @@ public final class EditContactActivity extends Activity
      * Constructs an intent for picking a photo from Gallery, cropping it and returning the bitmap.
      */
     public static Intent getPhotoPickIntent() {
-        Intent intent = new Intent(TIntent.ACTION_GET_CONTENT, null);
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT, null);
         intent.setType("image/*");
         intent.putExtra("crop", "true");
         intent.putExtra("aspectX", 1);

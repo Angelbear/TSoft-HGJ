@@ -33,6 +33,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
+import cn.edu.tsinghua.hpc.tcontacts.util.InternalResource;
 import cn.edu.tsinghua.hpc.tcontacts.util.TContactsContract.CommonDataKinds.TEmail;
 import cn.edu.tsinghua.hpc.tcontacts.util.TContactsContract.TContacts;
 import cn.edu.tsinghua.hpc.tcontacts.util.TContactsContract.TPhoneLookup;
@@ -97,7 +98,8 @@ public class QuickContactBadge extends ImageView implements OnClickListener {
 
         TypedArray a =
             context.obtainStyledAttributes(attrs,
-                    com.android.internal.R.styleable.QuickContactBadge, defStyle, 0);
+            		InternalResource.getStylableArray("QuickContactBadge")
+                    /*com.android.internal.R.styleable.QuickContactBadge*/, defStyle, 0);
 
         mMode = a.getInt(com.android.internal.R.styleable.QuickContactBadge_quickContactWindowSize,
                 QuickContact.MODE_MEDIUM);
